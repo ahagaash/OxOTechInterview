@@ -6,7 +6,7 @@
 </head>
 <body>
 <h2>Add Student</h2>
-<form action="#" th:action="@{/students}" th:object="${student}" method="post">
+<form action="#" th:action="@{/addStudent}" th:object="${student}" method="post">
     <label>Name: <input type="text" th:field="*{name}"></label><br>
     <label>Age: <input type="text" th:field="*{age}"></label><br>
     <label>Marks: <input type="text" th:field="*{marks}"></label><br>
